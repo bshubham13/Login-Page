@@ -1,0 +1,75 @@
+<style type="text/css">
+		.main-div{
+			width: 100vw;
+			height: 100vh;
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+/*			background-image:linear-gradient(to orange ,red );*/
+		}
+
+		.container{
+			height: 350px;
+			width: 250px;
+			background: white;
+			padding: 20px;
+			padding-top: 0px;
+			border-radius: 50px;
+			box-shadow: 0px 0px 20px grey;
+			margin-left: 39vw;
+			margin-top: 150px;
+		}
+
+		.heading{
+			font-size: 35px;
+			font-family: Arial Black;
+			color: royalblue;
+		}
+
+		.input{
+			width: 90%;
+			height: 30px;
+			margin-bottom: 10px;
+			margin-left: 5%;
+			border: none;
+			border-bottom: 3px solid black;
+			outline: none;
+			font-size: 15px;
+		}
+
+		.lgnbtn{
+			border: none;
+			cursor: pointer;
+			height: 45px;
+			background-color: royalblue;
+			color: white;
+			font-family: Arial Black;
+			font-size: 20px;
+			border-radius: 7px;
+
+		}
+
+		.lgnbtn:hover {
+			background-color: white;
+			color: royalblue;
+			border: 2px solid royalblue;
+			transform: scale(0.9);
+		}
+
+		.lnk {
+			text-decoration: none;
+			color: black;
+			font-family: Arial Black;
+			font-size: 13px;
+			margin-left: 12px;
+		}
+
+		.lnk:hover{
+			text-decoration: underline 2px solid black;
+		}
+
+
+	</style>
